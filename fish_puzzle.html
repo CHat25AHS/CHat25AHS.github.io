@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <title>Basic Web Design Puzzle</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Carter Hatleli">
+    <meta name="keywords" content="basic web design, puzzle, fish, css, grid, flexbox">
+    <meta name="description" content="Fish Puzzle for Basic Web Design">
+</head>
+<body>
+<style>
+  section.grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    column-gap: 5px;
+    row-gap: 5px;
+    margin:auto;
+    padding:10px;
+    background-color: #234abc;
+    grid-auto-flow: dense;
+  }
+  .grid-container div {
+    background-color: #bcbcef;
+    border: 1px solid #;
+    font-size: 1.55em;
+    text-align: center;
+  }
+  .puzzle div {
+    grid-column-start: auto;
+    grid-column-end: span 2;
+  }
+</style>
+<section class="grid-container">
+  <div class="name">
+    <p>Carter Hatleli</p>
+    <p>Fish Puzzle</p>
+  </div>
+  <div class="date">
+    <p>4.22.24</p>
+  </div>
+  <div class="puzzle">
+    <img src="puzzle3_D.jpg" alt="fish-puzzle-piece-D">
+    <img src="puzzle3_A.jpg" alt="fish-puzzle-piece-A">
+    <img src="puzzle3_G.jpg" alt="fish-puzzle-piece-G">
+    <img src="puzzle3_J.jpg" alt="fish-puzzle-piece-J">
+    <img src="puzzle3_B.jpg" alt="fish-puzzle-piece-B">
+    <img src="puzzle3_C.jpg" alt="fish-puzzle-piece-C">
+    <!---<img src="puzzle3_H.jpg" alt="fish-puzzle-piece-H-trick">--->
+    <img src="puzzle3_F.jpg" alt="fish-puzzle-piece-F">
+    <img src="puzzle3_I.jpg" alt="fish-puzzle-piece-I">
+    <img src="puzzle3_E.jpg" alt="fish-puzzle-piece-E">
+  </div>
+</section>
+</body>
+</html>
