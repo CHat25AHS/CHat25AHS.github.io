@@ -1,0 +1,110 @@
+  /*
+  ******************
+  Table of Contents
+  ******************
+  -Mario Kart
+  -Baseball
+  -TF2
+  ******************
+  */
+/*Mario Kart*/
+section.scorecard1 {
+  display:grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(5, 1fr);
+  border:3px solid #000000;
+  margin:auto;
+  width:300px;
+  height:500px;
+}
+section.scorecard1 .ak {
+  background-color:#ef1212;
+  font-size:24px;
+}
+section.scorecard1 .yb {
+  text-align:center;
+  background-color:#33ec33;
+  font-size:24px;
+  color:#c23f12;
+}
+section.scorecard1 .a1 {
+  background-color:#ffdfdf;
+}
+section.scorecard1 .a2 {
+  background-color:#dfdfdf;
+}
+section.scorecard1 .y1 {
+  background-color:#dfffdf;
+}
+section.scorecard1 .y2 {
+  background-color:#ffffdf;
+}
+section.scorecard1 .set {
+  color:#212121;
+  text-align:center;
+  font-size:24px;
+}
+/*Baseball*/
+.scorecard2 {
+  display:grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(11, 1fr);
+  border:3px solid #000000;
+  margin:auto;
+  width:300px;
+  height:1100px;
+}
+section.scorecard2 .br {
+  text-align:center;
+  background-color:#2121cf;
+  font-size:24px;
+  color:#afaf12;
+}
+section.scorecard2 .cc {
+  text-align:center;
+  background-color:#2121bf;
+  font-size:24px;
+  color:#c27f12;
+}
+section.scorecard2 .b1 {
+  background-color:#cfcfef;
+}
+section.scorecard2 .b2 {
+  background-color:#eaead2;
+}
+section.scorecard2 .c1 {
+  background-color:#dfaf52;
+}
+section.scorecard2 .c2 {
+  background-color:#afafe2;
+}
+section.scorecard2 .in {
+  color:#212121;
+  text-align:center;
+  font-size:24px;
+}
+
+/*TF2*/
+.scorecard3 {
+  display:grid;
+  grid-template-columns: repeat(10, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  border:3px solid #000000;
+  margin:auto;
+  width:1000px;
+  height:200px;
+}
+section.scorecard3 .class {
+  text-align:center;
+  border:3px solid #000000;
+  background-color:#af3131;
+  font-size:24px;
+  color:#dfdf31;
+}
+section.scorecard3 .points {
+  text-align:center;
+  border:3px solid #000000;
+  background-color:#3131af;
+  font-size:24px;
+  color:#000000;
+}
