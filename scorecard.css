@@ -2,11 +2,19 @@
   ******************
   Table of Contents
   ******************
+  -General
   -Mario Kart
   -Baseball
   -TF2
   ******************
   */
+/*General*/
+.title {
+  text-align:center;
+  font-size:30px;
+  font-weight:bold;
+  text-decoration:underline;
+}
 /*Mario Kart*/
 section.scorecard1 {
   display:grid;
