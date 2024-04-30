@@ -1,0 +1,33 @@
+.steps {
+  display:grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  border:5px solid #000000;
+  margin:auto;
+  width:auto;
+  height:auto;
+  font:monospace, courier new;
+}
+.title {
+  font-size:45px;
+  font-weight:bold;
+  text-decoration:underline;
+  text-align:center;
+}
+.step1 {
+  background-color:#ffcfcf;
+  font-size:18px;
+}
+.step2 {
+  background-color:#cfcfff;
+  font-size:18px;
+}
+.fin {
+  background-color:#efa5ef;
+  font-size:18px;
+}
+.steps .stepT {
+  font-weight:bold;
+  text-decoration:underline;
+  font-size:24px;
+}
