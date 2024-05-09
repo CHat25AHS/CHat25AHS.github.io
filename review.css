@@ -1,0 +1,67 @@
+/*Review Cards Assignment Style Sheet
+******************
+Table of Contents
+******************
+-Title
+-Cards
+-Background
+*/
+/*Title*/
+.title {
+  width: 100%;
+  height: 100px;
+  font-family: monospace, courier;
+  font-size: 50px;
+  color: #2727d5;
+  background-color: #282c3c;
+  padding: 10px;
+  text-align: center;
+  margin: auto;
+}
+/*Cards*/
+div.card {
+  width: 500px;
+  height: 400px;
+  background-color: #ffffcf;
+  font-size: 18px;
+  text-align: center;
+  margin: 20px;
+  border: 4px solid black;
+  z-index: 300;
+  position: absolute;
+}
+div.card:hover {
+  background-color: transparent;
+  color: transparent;
+  border: 0 solid transparent;
+  transition: all 1s;
+}
+div.answers {
+  width: 500px;
+  height: 400px;
+  background-color: #ffffcf;
+  font-size: 18px;
+  text-align: center;
+  margin: 20px;
+  border: 4px solid black;
+  z-index:200;
+}
+/*Background*/
+.end {
+  height: 100px;
+  width:100%;
+  z-index: 100;
+  animation-name: BackgroundColors;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  position: absolute;
+  color: #efefef;
+  font-family: monospace, courier;
+  font-size: 50px;
+  text-align:center;
+}
+  @keyframes BackgroundColors {
+    0% {background-color: #282c3c;}
+    50% {background-color: #686868;}
+    100% {background-color: #282c3c;}
+  }
