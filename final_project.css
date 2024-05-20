@@ -1,0 +1,131 @@
+/*
+******************
+Table of Contents
+******************
+-General
+-Home Page
+-Page 1: Media Types
+-Page 2: Advertising
+-Page 3: Jobs and Careers
+-Page 4: Education
+-Page 5: Related Fields
+******************
+*/
+/*General*/
+.Title {
+  text-align:center;
+  font-size:50px;
+  font-family:Monospace, courier;
+  color:#5555a8;
+  background-color:#2a3541;
+  width:100%;
+  height:100px;
+  padding:15px;
+  padding-bottom:100px;
+  position:relative;
+  left:-10px;
+  top:-10px;
+}
+section.pages {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-rows: repeat(2, 1fr);
+  background-color:#afafaf;
+  width:100%;
+  height:100px;
+  position:relative;
+  top:-10px;
+  border:3px solid black;
+}
+section div.page-header {
+  text-align:center;
+  font-size:16px;
+  font-family:Monospace, courier;
+  grid-column-start: auto;
+  grid-column-end: span 6;
+}
+section div.page-item {
+  text-align:center;
+  font-size:16px;
+  font-family:Monospace, courier;
+  border-top:3px solid black;
+  border-left:3px solid black;
+}
+p.body {
+ font-size:16px;
+ font-family: monospace, courier;
+}
+h2 {
+  font-family:serif, times, georgia;
+  font-size:30px;
+}
+.img1 {
+  width:40%;
+  height:auto;
+  float:right;
+  margin-left:10px;
+}
+p.cap1 {
+  font-size:14px;
+  font-family:sans-serif, arial, verdana;
+  width:40%;
+  float:right;
+}
+.img2 {
+  width:40%;
+  height:auto;
+  float:left;
+  margin-right:10px;
+}
+p.cap2 {
+  font-size:14px;
+  font-family:sans-serif, arial, verdana;
+  width:40%;
+  float:left;
+}
+/*Home Page*/
+div.HPbody {
+  width:95%;
+  height:385px;
+  margin:auto;
+  font-family: monospace, courier;
+}
+div.HPbody p.hpbody {
+ width:60%;
+ font-size:16px;
+}
+/*Page 1: Media Types*/
+div.body1 {
+  width:95%;
+  height:386px;
+  margin:auto;
+  font-family: monospace, courier;
+}
+/*Page 2: Advertising*/
+div.body2 {
+  width:95%;
+  height:386px;
+  margin:auto;
+  font-family: monospace, courier;
+}
+/*Page 3: Jobs and Careers*/
+div.body3 {
+  width:95%;
+  height:340px;
+  margin:auto;
+  font-family: monospace, courier;
+}
+/*Page 4: Education*/
+div.body4 {
+  width:95%;
+  height:428px;
+  margin:auto;
+  font-family: monospace, courier;
+}
+/*Page 5: Related Fields*/
+div.body5 {
+  width:95%;
+  height:410px;
+  margin:auto;
+  font-family: monospace, courier;
+}
